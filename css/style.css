@@ -1,0 +1,470 @@
+/* Assignment 3 - Pencil Website */
+/* CSS Document */
+
+/* Defaults **************************************************************/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(242, 242, 242);
+    background-attachment: fixed;
+    font-size: 1.3em;
+    color: black;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f0cf63;
+    font-style: italic;
+}
+
+button:hover {
+    color: #f0cf63;
+    font-style: italic;
+}
+
+/* Nav ******************************************************************/
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: inline-flex;
+    gap: 40px;
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    text-align: center;
+    font-size: 0.8em;
+    color: azure;
+}
+
+/* HOME PAGE */
+/* Structure *************************************************************/
+
+.home-header {
+    height: 70vh;
+    width: 100%;
+    background-image: url(../img/header-background.jpg);
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    margin: o;
+}
+
+.home-header h1 {
+    text-align: right;
+    margin-right: 10%;
+    margin-bottom: 0;
+    margin-top: 200px;
+    font-size: 4em;
+    color: #0a2442;
+}
+
+.home-header p {
+    color:  #f0cf63;
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* Main ******************************************************************/
+
+.slogan {
+    height: 110px;
+    width: 100%;
+    text-align: center;
+    background-color: #CCCCCC;
+    margin: 0;
+}
+
+.slogan h2 {
+    color: #0a2442;
+    margin: 0;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+main .new-arrivals{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.new-arrivals-1 {
+    width: 60%;
+    background-image: url(../img/newarrivals-bg.jpg);
+}
+
+.new-arrivals-1 h1 {
+    color:  white;
+    margin-top: 180px;
+    margin-right: 130px;
+    font-size: 3em;
+    text-align: right;
+}
+
+.new-arrivals-1 h3 {
+    text-align: right;
+    margin-right: 130px;
+    font-style: italic;
+    color: #0a2442;
+}
+
+.new-arrivals-1 button {
+    float: right;
+    margin-right: 130px;
+    margin-top: 100px;
+    width: 15%;
+    height: 40px;
+    border-radius: 35px;
+    border: 2px solid #0a2442;
+    background-color: #CCCCCC;
+    color: black;
+    font-size: large;
+}
+
+.new-arrivals-2 {
+    width: 40%;
+    background-color: #f0cf63;
+}
+
+.new-arrivals img {
+    width: 550px;
+    height: auto;
+    margin-top: 35px;
+    margin-left: -80px;
+    border-radius: 20px;
+}
+
+main section h1 {
+    margin-left: 220px;
+    font-size: 3em;
+    color: #f0cf63;
+}
+
+.main-products {
+    background-image: url(../img/mainproduct-bg.jpg);
+    height: 70vh;
+    width: 100%;
+}
+
+.main-products h1 {
+    padding: 0;
+    margin: 0;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+main section .flexbox {
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.flexbox div {
+    background-color: #CCCCCC;
+    border: 2px solid #f0cf63;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    flex: 1;
+    text-align: center;
+}
+
+.flexbox img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.subscription {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: #CCCCCC;
+    margin: 0;
+}
+
+.subscription form {
+    margin: 0;
+}
+
+.subscription form input {
+    width: 30%;
+    height: 40px;
+    border: 2px solid #f0cf63;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.subscription button {
+    width: 8%;
+    height: 40px;
+    border-radius: 35px;
+    border: 2px solid black;
+    background-color: #f0cf63;
+    color: black;
+}
+
+/* Footer ******************************************************************/
+
+footer {
+    text-align: center;
+}
+
+footer section img {
+    width: 5%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer section h8{
+    font-size: x-small;
+}
+
+footer section p {
+    display: inline-block;
+    font-size: small;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+footer section p:hover {
+    color: #f0cf63;
+    font-style: italic;
+}
+
+/* FEATURES PAGE */
+/* Structure *************************************************************/
+
+.features-header {
+    height: 70vh;
+    width: 100%;
+    background-image: url(../img/features-header.jpg);
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    margin: 0;
+}
+
+.features-header h1 {
+    text-align: center;
+    color: #f0cf63;
+    margin-top: 180px;
+    font-size: 3em;
+}
+
+.features-header a {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.features-header a:hover {
+    color: #f0cf63;
+    font-style: italic;
+}
+
+.features {
+    display: flex;
+}
+
+.features h1 {
+    text-align: right;
+    color: #f0cf63;
+    margin-top: 130px;
+    font-size: 2em;
+    margin-left: 280px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+
+.features h5 {
+    text-align: right;
+    margin-left: 280px;
+    margin-right: 150px;
+}
+
+.features p:hover {
+    color: #f0cf63;
+    font-style: italic;
+}
+
+.features-text-left {
+    width: 60%;
+    height: 60vh;
+    background-color: white;
+}
+
+.features-image-right {
+    width: 40%;
+    height: auto;
+    background-color: #CCCCCC;
+}
+
+.features-image-right img {
+    width: 550px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: -80px;
+    border-radius: 20px;
+}
+
+.features-image-left {
+    width: 40%;
+    height: 60vh;
+    background-color: black;
+}
+
+.features-image-left img {
+    width: 550px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.features-text-right h1 {
+    text-align: left;
+    color: black;
+    margin-top: 120px;
+    font-size: 2em;
+    margin-left: 150px;
+    margin-right: 280px;
+    margin-bottom: 30px;
+}
+
+.features-text-right h5 {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 280px;
+    color: #f0cf63;
+}
+
+.buynow {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+.buynow button {
+    width: 10%;
+    height: 60px;
+    margin-top: 15px;
+    font-size: larger;
+    color: #0a2442;
+    border-radius: 25px;
+    background-color: #f0cf63;
+    border: 2px solid white;
+}
+
+.buynow button a:hover {
+    color: #0a2442;
+}
+
+/* SHOPPING CART PAGE */
+/* Structure *************************************************************/
+
+.shoppingcart-header {
+    height: 40vh;
+    width: 100%;
+    background-image: url(../img/shoppingcart-header.jpg);
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+    margin: 0;
+}
+
+.shoppingcart-header h1 {
+    text-align: center;
+    color: #CCCCCC;
+    margin-top: 150px;
+    font-size: 3em;
+}
+
+.details h2 {
+    color: #0a2442;
+    margin-left: 200px;
+}
+
+.flex-details {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.flex-details-child {
+    width: 25%;
+    gap: 30px;
+    text-align: center;
+}
+
+.flex-details-child img {
+    width: 100%;
+}
+
+.flex-details-child input {
+    margin-top: 20px;
+}
+
+.shipping {
+    height: 30vh;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 45px;
+    border: 2px solid #0a2442;
+    text-align: center;;
+    color: black;
+}
+
+.checkbox {
+    text-align: left;
+    margin-left: 330px;
+}
+
+.shipping button {
+    width: 15%;
+    height: 40px;
+    border-radius: 35px;
+    border: 2px solid #f0cf63;
+    background-color: black;
+    color: #CCCCCC;
+    font-size: large;
+}
+
+.shipping button:hover {
+    color: #f0cf63;
+    font-weight: 600;
+}
